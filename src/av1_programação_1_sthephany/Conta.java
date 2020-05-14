@@ -1,6 +1,6 @@
 package av1_programação_1_sthephany;
 // Questão 2: Classe conta, visibilidade e encapsulamento.
-abstract public class Conta {
+ public class Conta {
     private String conta;
     private int numero;
     private String agencia;
