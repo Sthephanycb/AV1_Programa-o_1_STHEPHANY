@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package av1_programação_1_sthephany;
+//Questão 5 criar classes conta corrente, e poupança
+public class ContaCorrente extends Conta {
+    private double taxaAdministracao;
+    private double limite;
 
-/**
- *
- * @author Sthephany Barbosa
- */
-public class ContaCorrente {
+    @Override
+    public String toString() {
+        return "ContaCorrente{" + "taxaAdministracao=" + taxaAdministracao + ", limite=" + limite + '}';
+    }
+    
     
 }
